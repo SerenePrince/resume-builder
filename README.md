@@ -3,7 +3,6 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-8-646cff?logo=vite&logoColor=white)](https://vite.dev)
-[![CI](https://github.com/SerenePrince/resume-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/SerenePrince/resume-builder/actions/workflows/ci.yml)
 
 A personal resume composition tool built with React and Vite. Select the bullets and skills you want to include, tweak any wording inline, and export a clean, consistently formatted `.docx` file — no fussing with Word templates.
 
@@ -258,10 +257,6 @@ src/
 ```
 
 ---
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
