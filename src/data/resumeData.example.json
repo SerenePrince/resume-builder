@@ -1,0 +1,196 @@
+{
+  "_note": "Example data — rename this file to resumeData.json (which is gitignored) and replace every field with your own. (This resume belongs to Kozume Kenma, former Nekoma setter turned game developer. He does not check his emails.)",
+
+  "meta": {
+    "name": "Kozume Kenma",
+    "location": "Nerima, Tokyo",
+    "email": "kenma@bouncingball.co.jp",
+    "phone": "+81 3-5555-0194",
+    "linkedin": "linkedin.com/in/kozume-kenma",
+    "github": "github.com/kenma-bb",
+    "portfolio": "kenma.bouncingball.co.jp"
+  },
+
+  "education": {
+    "institution": "Tokyo Institute of Technology",
+    "location": "Meguro, Tokyo",
+    "degree": "Bachelor of Engineering, Computer Science",
+    "startDate": "Apr 2019",
+    "endDate": "Mar 2023",
+    "gpa": "3.95",
+    "honors": "Top of cohort, every semester"
+  },
+
+  "skillCategories": [
+    {
+      "id": "languages",
+      "label": "Languages",
+      "skills": ["Python", "JavaScript", "C++", "Lua"]
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "skills": ["React", "Electron", "TypeScript", "HTML/CSS"]
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "skills": ["Node.js", "REST APIs", "WebSockets", "FastAPI"]
+    },
+    {
+      "id": "databases",
+      "label": "Databases",
+      "skills": ["PostgreSQL", "SQLite", "Redis"]
+    },
+    {
+      "id": "tools",
+      "label": "Developer Tools",
+      "skills": ["Git", "Docker", "Linux", "OBS Studio SDK"]
+    }
+  ],
+
+  "experiences": [
+    {
+      "id": "bouncing-ball",
+      "company": "Bouncing Ball Corp.",
+      "title": "Founder & Lead Developer",
+      "type": null,
+      "startDate": "Apr 2021",
+      "endDate": "Present",
+      "location": "Tokyo, Japan",
+      "bullets": [
+        {
+          "id": "bb-1",
+          "tags": ["fullstack", "backend", "general"],
+          "content": "Founded Bouncing Ball Corp. off the back of a viral gaming stream series; grew the channel to 800k subscribers and transitioned into indie game development and developer tooling."
+        },
+        {
+          "id": "bb-2",
+          "tags": ["fullstack", "backend"],
+          "content": "Architected and shipped Setter's Gambit, a multiplayer browser game built in Phaser.js with a Node.js WebSocket backend; peaked at 14,000 concurrent players during launch week."
+        },
+        {
+          "id": "bb-3",
+          "tags": ["fullstack", "frontend"],
+          "content": "Built an internal analytics dashboard that consolidated viewer engagement, stream health, and ad revenue into a single React interface — replaced three separate third-party subscriptions."
+        },
+        {
+          "id": "bb-4",
+          "tags": ["backend", "general"],
+          "content": "Designed all backend infrastructure for zero unplanned maintenance; no manual intervention required across 18 months of production uptime."
+        },
+        {
+          "id": "bb-5",
+          "tags": ["general"],
+          "content": "Managed a two-person team through the full game development lifecycle — scoping, building, QA, and post-launch patching — across three shipped titles."
+        }
+      ]
+    },
+    {
+      "id": "cyberagent",
+      "company": "CyberAgent",
+      "title": "Game Developer",
+      "type": "Intern",
+      "startDate": "Jun 2020",
+      "endDate": "Aug 2020",
+      "location": "Shibuya, Tokyo",
+      "bullets": [
+        {
+          "id": "ca-1",
+          "tags": ["backend", "general"],
+          "content": "Implemented three core gameplay systems for an unreleased mobile title on a team of six engineers; all three shipped in the v1.2 patch."
+        },
+        {
+          "id": "ca-2",
+          "tags": ["backend"],
+          "content": "Wrote Lua behaviour tree scripts to drive NPC decision logic, cutting designer iteration time by removing a full re-export step from the pipeline."
+        },
+        {
+          "id": "ca-3",
+          "tags": ["testing", "backend"],
+          "content": "Wrote 45 unit tests for the in-game economy system before launch; caught two balance exploits that had not been surfaced in manual QA."
+        },
+        {
+          "id": "ca-4",
+          "tags": ["general"],
+          "content": "Worked directly with two senior engineers and a game designer — first professional experience shipping production code on a commercial title."
+        }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "nekoma",
+      "name": "NEKOMA",
+      "tech": "Python, React, FastAPI, PostgreSQL",
+      "github": "github.com/kenma-bb/nekoma",
+      "live": null,
+      "bullets": [
+        {
+          "id": "nek-1",
+          "tags": ["fullstack", "general"],
+          "content": "Volleyball match analytics tool built for Nekoma High School's coaching staff — tracks set distribution, dig efficiency, and serve-receive patterns across a full tournament season."
+        },
+        {
+          "id": "nek-2",
+          "tags": ["backend", "fullstack"],
+          "content": "FastAPI backend ingests match CSVs, normalises player stats, and exposes a REST API; React frontend renders radar charts and heatmaps per rotation."
+        },
+        {
+          "id": "nek-3",
+          "tags": ["general"],
+          "content": "Used by coaching staff during the spring prefectural tournament; analysis identified that the opponent's block shifted late on back-pipe sets — exploited successfully in the third set."
+        }
+      ]
+    },
+    {
+      "id": "stream-commander",
+      "name": "StreamCommander",
+      "tech": "Electron, TypeScript, OBS WebSocket API",
+      "github": "github.com/kenma-bb/stream-commander",
+      "live": "streamcommander.app",
+      "bullets": [
+        {
+          "id": "sc-1",
+          "tags": ["fullstack", "frontend", "general"],
+          "content": "Desktop app for managing OBS scene transitions, alert queues, and stream overlays from a single keyboard-driven interface — built because switching tools mid-stream was breaking focus."
+        },
+        {
+          "id": "sc-2",
+          "tags": ["backend", "fullstack"],
+          "content": "Communicates with OBS via the WebSocket API; scene templates defined in JSON so full stream setups can be versioned, shared, and restored in seconds."
+        },
+        {
+          "id": "sc-3",
+          "tags": ["general"],
+          "content": "4,200+ downloads on GitHub; adopted by streamers in the gaming community including several with over 100k subscribers."
+        }
+      ]
+    },
+    {
+      "id": "setters-gambit",
+      "name": "Setter's Gambit",
+      "tech": "Phaser.js, Node.js, WebSockets, Redis",
+      "github": null,
+      "live": "settersgambit.bouncingball.co.jp",
+      "bullets": [
+        {
+          "id": "sg-1",
+          "tags": ["fullstack", "backend"],
+          "content": "Real-time multiplayer puzzle game where players control a setter reading court patterns and choosing optimal ball placement under a countdown — 4-player lobbies via WebSocket rooms."
+        },
+        {
+          "id": "sg-2",
+          "tags": ["backend"],
+          "content": "Redis used for lobby state and leaderboard; Node.js game server handles authoritative collision and scoring to prevent client-side cheating."
+        },
+        {
+          "id": "sg-3",
+          "tags": ["general"],
+          "content": "Launched to Bouncing Ball's audience; peaked at 14,000 concurrent players on release day with no server scaling events."
+        }
+      ]
+    }
+  ]
+}
