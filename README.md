@@ -8,7 +8,7 @@ A personal resume composition tool built with React and Vite. Select the bullets
 
 ---
 
-## How it works
+## What It Does
 
 The app is split into two panes:
 
@@ -74,7 +74,7 @@ A dashed line at the 11-inch mark in the preview shows exactly where a printed p
 
 ---
 
-## Tech stack
+## Tech Stack
 
 | Layer        | Choice                              |
 | ------------ | ----------------------------------- |
@@ -87,7 +87,7 @@ No backend. No accounts. Runs entirely in the browser.
 
 ---
 
-## Local setup
+## Getting Started
 
 ```bash
 # 1. Clone the repo
